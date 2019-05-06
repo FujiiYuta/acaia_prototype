@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23EDB1D104CAD8D8C25D5D0D /* Pods_AcaiaSDKExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3420CBC237ADB5CA46DBF331 /* Pods_AcaiaSDKExampleSwift.framework */; };
 		6EB3FD0A20EBF69A00B8BFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3FD0920EBF69A00B8BFAE /* AppDelegate.swift */; };
 		6EB3FD1120EBF69A00B8BFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB3FD0F20EBF69A00B8BFAE /* Main.storyboard */; };
 		6EB3FD1320EBF69C00B8BFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB3FD1220EBF69C00B8BFAE /* Assets.xcassets */; };
 		6EB3FD1620EBF69C00B8BFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB3FD1420EBF69C00B8BFAE /* LaunchScreen.storyboard */; };
 		6EB3FD1E20EBF9BA00B8BFAE /* AcaiaScaleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3FD1D20EBF9BA00B8BFAE /* AcaiaScaleTableVC.swift */; };
 		6EB3FD2020EBF9D100B8BFAE /* AcaiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3FD1F20EBF9D100B8BFAE /* AcaiaViewController.swift */; };
+		C8D27116CFCCA4A338A812A7 /* Pods_AcaiaSDKExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194BA1B78B6E7CDE2311D215 /* Pods_AcaiaSDKExampleSwift.framework */; };
+		FDCD94E8227F476E008511EF /* AcaiaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCD94E7227F476E008511EF /* AcaiaSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07106BC0C911306261DD58A6 /* Pods-AcaiaSDKExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaiaSDKExampleSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
-		3420CBC237ADB5CA46DBF331 /* Pods_AcaiaSDKExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcaiaSDKExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		194BA1B78B6E7CDE2311D215 /* Pods_AcaiaSDKExampleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcaiaSDKExampleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229BAC915472C1D966DE7BC /* Pods-AcaiaSDKExampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaiaSDKExampleSwift.release.xcconfig"; path = "Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift.release.xcconfig"; sourceTree = "<group>"; };
 		6EB3FD0620EBF69A00B8BFAE /* AcaiaSDKExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcaiaSDKExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB3FD0920EBF69A00B8BFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EB3FD1020EBF69A00B8BFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,7 +28,9 @@
 		6EB3FD1720EBF69C00B8BFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB3FD1D20EBF9BA00B8BFAE /* AcaiaScaleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiaScaleTableVC.swift; sourceTree = "<group>"; };
 		6EB3FD1F20EBF9D100B8BFAE /* AcaiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiaViewController.swift; sourceTree = "<group>"; };
-		A0DB5743F04BEAE2B36575BF /* Pods-AcaiaSDKExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaiaSDKExampleSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB22F9892B422AFE8FF6473 /* Pods-AcaiaSDKExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaiaSDKExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		FDCD94E5227F4739008511EF /* acaia_sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = acaia_sdk; path = ..; sourceTree = "<group>"; };
+		FDCD94E7227F476E008511EF /* AcaiaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcaiaSDK.framework; path = "Pods/AcaiaSDK-latest/AcaiaSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EDB1D104CAD8D8C25D5D0D /* Pods_AcaiaSDKExampleSwift.framework in Frameworks */,
+				FDCD94E8227F476E008511EF /* AcaiaSDK.framework in Frameworks */,
+				C8D27116CFCCA4A338A812A7 /* Pods_AcaiaSDKExampleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,8 +51,8 @@
 			children = (
 				6EB3FD0820EBF69A00B8BFAE /* AcaiaSDKExampleSwift */,
 				6EB3FD0720EBF69A00B8BFAE /* Products */,
-				BD4886DA1EE09BE2149C7150 /* Pods */,
-				9AE7636F742D875959F650CD /* Frameworks */,
+				86594DE3E8CAECA4228D2E71 /* Pods */,
+				7B7C6C29F21BA0656272AD96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,21 +78,23 @@
 			path = AcaiaSDKExampleSwift;
 			sourceTree = "<group>";
 		};
-		9AE7636F742D875959F650CD /* Frameworks */ = {
+		7B7C6C29F21BA0656272AD96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3420CBC237ADB5CA46DBF331 /* Pods_AcaiaSDKExampleSwift.framework */,
+				FDCD94E7227F476E008511EF /* AcaiaSDK.framework */,
+				FDCD94E5227F4739008511EF /* acaia_sdk */,
+				194BA1B78B6E7CDE2311D215 /* Pods_AcaiaSDKExampleSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD4886DA1EE09BE2149C7150 /* Pods */ = {
+		86594DE3E8CAECA4228D2E71 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0DB5743F04BEAE2B36575BF /* Pods-AcaiaSDKExampleSwift.debug.xcconfig */,
-				07106BC0C911306261DD58A6 /* Pods-AcaiaSDKExampleSwift.release.xcconfig */,
+				FAB22F9892B422AFE8FF6473 /* Pods-AcaiaSDKExampleSwift.debug.xcconfig */,
+				2229BAC915472C1D966DE7BC /* Pods-AcaiaSDKExampleSwift.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,11 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EB3FD1A20EBF69C00B8BFAE /* Build configuration list for PBXNativeTarget "AcaiaSDKExampleSwift" */;
 			buildPhases = (
-				B817AFDB888194E7E6A5F9F0 /* [CP] Check Pods Manifest.lock */,
+				5360C95CE27E51F4CF210F72 /* [CP] Check Pods Manifest.lock */,
 				6EB3FD0220EBF69A00B8BFAE /* Sources */,
 				6EB3FD0320EBF69A00B8BFAE /* Frameworks */,
 				6EB3FD0420EBF69A00B8BFAE /* Resources */,
-				0A9604DE3F6A37027EEDEB4F /* [CP] Embed Pods Frameworks */,
+				6ED942B39AA76DD239801B9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,40 +167,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A9604DE3F6A37027EEDEB4F /* [CP] Embed Pods Frameworks */ = {
+		5360C95CE27E51F4CF210F72 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B817AFDB888194E7E6A5F9F0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AcaiaSDKExampleSwift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ED942B39AA76DD239801B9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -348,11 +362,15 @@
 		};
 		6EB3FD1B20EBF69C00B8BFAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0DB5743F04BEAE2B36575BF /* Pods-AcaiaSDKExampleSwift.debug.xcconfig */;
+			baseConfigurationReference = FAB22F9892B422AFE8FF6473 /* Pods-AcaiaSDKExampleSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QZF5XM7L73;
+				DEVELOPMENT_TEAM = XPB2B85UAV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AcaiaSDK-latest",
+				);
 				INFOPLIST_FILE = AcaiaSDKExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,11 +385,15 @@
 		};
 		6EB3FD1C20EBF69C00B8BFAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07106BC0C911306261DD58A6 /* Pods-AcaiaSDKExampleSwift.release.xcconfig */;
+			baseConfigurationReference = 2229BAC915472C1D966DE7BC /* Pods-AcaiaSDKExampleSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QZF5XM7L73;
+				DEVELOPMENT_TEAM = XPB2B85UAV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AcaiaSDK-latest",
+				);
 				INFOPLIST_FILE = AcaiaSDKExampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
