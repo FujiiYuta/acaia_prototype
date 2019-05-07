@@ -18,6 +18,7 @@ class AcaiaViewController: UIViewController {
     @IBOutlet var btnPauseTimer: UIButton!
     @IBOutlet var btnDisconnect: UIButton!
     @IBOutlet var btnTare: UIButton!
+    @IBOutlet var btnStart: UIButton!
     var isTimerStarted:Bool = false;
     var isTimerPaused:Bool = false;
     
@@ -129,6 +130,9 @@ class AcaiaViewController: UIViewController {
         }
     }
     
+    @IBAction func onBtnStart(_ sender: Any) {
+        
+    }
     
     
     

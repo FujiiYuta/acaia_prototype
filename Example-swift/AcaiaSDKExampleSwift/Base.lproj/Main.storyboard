@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Fnw-yF-Fr2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Fnw-yF-Fr2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -144,6 +143,22 @@
                                     <constraint firstItem="HFN-Aw-Sok" firstAttribute="width" secondItem="z6p-ux-fKo" secondAttribute="width" id="zcF-Wd-M55"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tW3-6v-4QA">
+                                <rect key="frame" x="150" y="511" width="89" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.36427431179999997" blue="0.31359326850000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Start!!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <color key="backgroundColor" red="0.3648397021" green="0.3648397021" blue="0.3648397021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onBtnStart:" destination="whP-gf-Uak" eventType="touchUpInside" id="nEM-ws-5eS"/>
+                                    <segue destination="NKE-QT-oJj" kind="show" id="Mxo-19-zoU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -176,11 +191,12 @@
                     <connections>
                         <outlet property="btnDisconnect" destination="z6p-ux-fKo" id="qQD-bC-8eS"/>
                         <outlet property="btnPauseTimer" destination="X6c-dx-bKg" id="pUh-Jo-MgB"/>
+                        <outlet property="btnStart" destination="tW3-6v-4QA" id="9i6-py-0At"/>
                         <outlet property="btnTare" destination="HFN-Aw-Sok" id="BBV-HD-4cH"/>
                         <outlet property="btnTimer" destination="2VJ-qk-ZKe" id="p85-uu-Pnl"/>
                         <outlet property="scaleNameL" destination="o3B-cd-D9w" id="83d-2s-IRP"/>
                         <outlet property="timerL" destination="NYr-Tp-boF" id="RTt-ar-LrO"/>
-                        <outlet property="toolView" destination="9ak-fK-bgC" id="9zC-vj-cvr"/>
+                        <outlet property="toolView" destination="9ak-fK-bgC" id="qaL-2T-3lH"/>
                         <outlet property="weightL" destination="ujI-bf-UTk" id="cJ3-QP-OXq"/>
                     </connections>
                 </viewController>
@@ -231,6 +247,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wuC-BN-2nS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1204" y="431.33433283358323"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="85P-r3-fHe">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="NKE-QT-oJj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XI1-1A-MK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1241" y="1200"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QXR-ed-x57">

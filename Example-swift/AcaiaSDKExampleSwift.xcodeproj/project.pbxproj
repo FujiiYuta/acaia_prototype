@@ -14,6 +14,8 @@
 		6EB3FD1E20EBF9BA00B8BFAE /* AcaiaScaleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3FD1D20EBF9BA00B8BFAE /* AcaiaScaleTableVC.swift */; };
 		6EB3FD2020EBF9D100B8BFAE /* AcaiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3FD1F20EBF9D100B8BFAE /* AcaiaViewController.swift */; };
 		8B3FACBC96B48AA23FB46A40 /* Pods_AcaiaSDKExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F2A83A3F1AC9EC88A63084 /* Pods_AcaiaSDKExampleSwift.framework */; };
+		FD058A882280AC89008C17C3 /* AcaiaAVPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD058A872280AC88008C17C3 /* AcaiaAVPlayerVC.swift */; };
+		FD058A8A2280B0FF008C17C3 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD058A892280B0FF008C17C3 /* AVKit.framework */; };
 		FDCD94E8227F476E008511EF /* AcaiaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCD94E7227F476E008511EF /* AcaiaSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		6EB3FD1D20EBF9BA00B8BFAE /* AcaiaScaleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiaScaleTableVC.swift; sourceTree = "<group>"; };
 		6EB3FD1F20EBF9D100B8BFAE /* AcaiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiaViewController.swift; sourceTree = "<group>"; };
 		D1F085BD7589E76CAED4F926 /* Pods-AcaiaSDKExampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaiaSDKExampleSwift.debug.xcconfig"; path = "Target Support Files/Pods-AcaiaSDKExampleSwift/Pods-AcaiaSDKExampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		FD058A872280AC88008C17C3 /* AcaiaAVPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AcaiaAVPlayerVC.swift; path = ../../../../../.Trash/AcaiaAVPlayerVC.swift; sourceTree = "<group>"; };
+		FD058A892280B0FF008C17C3 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		FDCD94E5227F4739008511EF /* acaia_sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = acaia_sdk; path = ..; sourceTree = "<group>"; };
 		FDCD94E7227F476E008511EF /* AcaiaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcaiaSDK.framework; path = "Pods/AcaiaSDK-latest/AcaiaSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD058A8A2280B0FF008C17C3 /* AVKit.framework in Frameworks */,
 				FDCD94E8227F476E008511EF /* AcaiaSDK.framework in Frameworks */,
 				8B3FACBC96B48AA23FB46A40 /* Pods_AcaiaSDKExampleSwift.framework in Frameworks */,
 			);
@@ -67,6 +72,7 @@
 		6EB3FD0820EBF69A00B8BFAE /* AcaiaSDKExampleSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FD058A872280AC88008C17C3 /* AcaiaAVPlayerVC.swift */,
 				6EB3FD0920EBF69A00B8BFAE /* AppDelegate.swift */,
 				6EB3FD0F20EBF69A00B8BFAE /* Main.storyboard */,
 				6EB3FD1220EBF69C00B8BFAE /* Assets.xcassets */,
@@ -81,6 +87,7 @@
 		7B7C6C29F21BA0656272AD96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD058A892280B0FF008C17C3 /* AVKit.framework */,
 				FDCD94E7227F476E008511EF /* AcaiaSDK.framework */,
 				FDCD94E5227F4739008511EF /* acaia_sdk */,
 				20F2A83A3F1AC9EC88A63084 /* Pods_AcaiaSDKExampleSwift.framework */,
@@ -218,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD058A882280AC89008C17C3 /* AcaiaAVPlayerVC.swift in Sources */,
 				6EB3FD1E20EBF9BA00B8BFAE /* AcaiaScaleTableVC.swift in Sources */,
 				6EB3FD0A20EBF69A00B8BFAE /* AppDelegate.swift in Sources */,
 				6EB3FD2020EBF9D100B8BFAE /* AcaiaViewController.swift in Sources */,
