@@ -156,7 +156,6 @@
                                 </variation>
                                 <connections>
                                     <action selector="onBtnStart:" destination="whP-gf-Uak" eventType="touchUpInside" id="nEM-ws-5eS"/>
-                                    <segue destination="NKE-QT-oJj" kind="show" id="Mxo-19-zoU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -247,14 +246,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wuC-BN-2nS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1204" y="431.33433283358323"/>
-        </scene>
-        <!--AV Player View Controller-->
-        <scene sceneID="85P-r3-fHe">
-            <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="NKE-QT-oJj" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XI1-1A-MK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1241" y="1200"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QXR-ed-x57">
